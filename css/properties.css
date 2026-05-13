@@ -1,0 +1,19 @@
+
+
+.btn {
+    font-family: var(--fuente-secundaria);
+    font-weight: 300;
+    font-size: small;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.p-comun {
+    font-family: var(--fuente-secundaria);
+    color: var(--gris);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.8;
+}

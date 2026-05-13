@@ -3,10 +3,10 @@
 :root {
 
     /* Fuente Principal */
-    --fuente-principal: font-family: "Bebas Neue", sans-serif;
+    --fuente-principal: "Bebas Neue", sans-serif;
 
     /* Fuente Secundaria */
-    --fuente-secundaria: font-family: "Oswald", sans-serif;
+    --fuente-secundaria: "Oswald", sans-serif;
 
     /* Paleta de Colores Principal */
     --rojo: #e63b2e;
