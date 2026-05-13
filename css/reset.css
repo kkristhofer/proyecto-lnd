@@ -1,0 +1,47 @@
+/* RESET GENERAL */
+*, *::before, *::after {
+  box-sizing: border-box; /* Evita que padding/borders rompan el ancho */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-behavior: smooth; /* Para que el menú navegue suave */
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* LISTAS: Aquí quitas los asteriscos de forma global */
+ul, ol {
+  list-style: none;
+}
+
+/* ENLACES: Quita el subrayado y color azul por defecto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* IMÁGENES: Para que no se salgan de su contenedor */
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+/* FORMULARIOS: Para que hereden la fuente de la página */
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}

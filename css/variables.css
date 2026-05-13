@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+:root {
+
+    /* Fuente Principal */
+    --fuente-principal: font-family: "Bebas Neue", sans-serif;
+
+    /* Fuente Secundaria */
+    --fuente-secundaria: font-family: "Oswald", sans-serif;
+
+    /* Paleta de Colores Principal */
+    --rojo: #e63b2e;
+    --negro: #111111;
+    --negro2: #1a1a1a;
+    --blanco: #f5f0e8;
+    --gris: #888;
+    --dorado: #c9a84c;  
+
+    /* Colores de Interfaz y Detalles */
+    --header-negro: #0d0d0d;
+    --borde-tarjetas: #2a2a2a;
+    --input-fondo: #1a1a1a;
+    --input-placeholder: #444;  
+
+    /* Estatus/Pills (Horarios) */
+    --pill-principiante-fondo: #1a2a1a;
+    --pill-principiante-texto: #5a9a5a;
+    --pill-intermedio-fondo: #2a2010;
+    --pill-intermedio-texto: #c09040;
+    --pill-avanzado-fondo: #2a1010;
+    --pill-avanzado-texto: #c05050;
+    
+}
