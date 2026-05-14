@@ -2,27 +2,28 @@
 
 :root {
 
-    /* Fuente Principal */
+    /* fuente principal */
     --fuente-principal: "Bebas Neue", sans-serif;
 
-    /* Fuente Secundaria */
+    /* fuente secundaria */
     --fuente-secundaria: "Oswald", sans-serif;
 
-    /* Paleta de Colores Principal */
+    /* paleta principal */
     --rojo: #e63b2e;
     --negro: #111111;
     --negro2: #1a1a1a;
     --blanco: #f5f0e8;
     --gris: #888;
+    --gris2 : #555
     --dorado: #c9a84c;  
 
-    /* Colores de Interfaz y Detalles */
+    /* colores de interfaz */
     --header-negro: #0d0d0d;
     --borde-tarjetas: #2a2a2a;
     --input-fondo: #1a1a1a;
     --input-placeholder: #444;  
 
-    /* Estatus/Pills (Horarios) */
+    /* pills */
     --pill-principiante-fondo: #1a2a1a;
     --pill-principiante-texto: #5a9a5a;
     --pill-intermedio-fondo: #2a2010;

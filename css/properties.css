@@ -17,3 +17,35 @@
     font-size: 15px;
     line-height: 1.8;
 }
+
+.titulo-seccion {
+    font-family: var(--fuente-principal);
+    color: var(--blanco);
+    font-size: 52px;
+    letter-spacing: 3px;
+    line-height: 1;
+    margin: 16px 0;
+}
+
+.hr-seccion {
+    border: 1px solid var(--pill-intermedio-texto);
+    width: 60px;
+    margin-bottom: 32px;
+}
+
+.descripcion-seccion {
+    font-family: var(--fuente-secundaria);
+    font-weight: 300;
+    color: var(--gris);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.tag-pretitulo {
+    font-family: var(--fuente-secundaria);
+    color: var(--rojo);
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
