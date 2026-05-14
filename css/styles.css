@@ -148,14 +148,16 @@ nav ul {
     flex-direction: row;
     gap: 24px;
     margin-top: 40px;
-    justify-content: center;
+    width: 100%;
+    justify-content: stretch;
     align-items: center;
+    flex: 1;
 }
 
 .clase-card {
     background-color: var(--negro2);
     border: 1px solid var(--borde-tarjetas);
-    width: 300px;
+    flex: 1;
     position: relative;
     gap: 26px;
     padding: 28px;
