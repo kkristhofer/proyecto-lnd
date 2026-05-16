@@ -3,10 +3,10 @@ body {
 }
 
 .container {
-    max-width: 1200px; /* O el ancho que prefieras */
-    margin: 0 auto;    /* Centra el bloque */
-    padding: 0 40px;   /* Margen interno para que en tablets/móvil no toque el borde */
-    width: 100%;       /* Para que sea responsivo */
+    max-width: 1200px;
+    margin: 0 auto;   
+    padding: 0 40px; 
+    width: 100%;  
 }
 
 .container-seccion {
@@ -17,8 +17,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; /* Esto hará que el texto de la izquierda y los números de la derecha se alineen por el centro */
-    min-height: 70vh;    /* Le da una altura mínima generosa */
+    align-items: center; 
+    min-height: 70vh;    
     flex-wrap: wrap;
 }
 
@@ -238,11 +238,12 @@ nav ul {
     color: var(--blanco);
 }
 
-.entrenador1-img {
+.entrenador-img {
     margin-bottom: 16px;
     width: 100%;
-    height: 50%;
-
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .tabla-horarios {
