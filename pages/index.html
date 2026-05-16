@@ -1,116 +1,335 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iron Fist Gym</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/variables.css">
-    <link rel="stylesheet" href="../css/properties.css">
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
-<body>
-    <header id="header">
-        <h1>Iron Fist Gym</h1>
-        <nav>
-            <ul>
-                <li><a href="#clases">Clases</a></li>
-                <li><a href="#entrenadores">Entrenadores</a></li>
-                <li><a href="#precios">Precios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        <button class="btn">Únete ahora</button>
-    </header>
-    <section id="hero">
-        <div class="container container-hero">
-            <div class="hero1">
-                <p class="hero-tagline">🥊 El gym de boxeo #1</p>
-                <h2>Entrena como un<br><span>campeón</span></h2> 
-                <p class="p-comun p-margin">Clases de boxeo para todos los niveles. Desde principiantes hasta competidores profesionales. Fórjate en el ring.</p>
-            <div class="botones-hero">
-                <button class="btn">Empezar ahora</button>
-                <button class="btn btn-secundario">Ver clases</button>
-            </div>
-            </div>
-            
-            <div class="hero2">
-                <div class="hero-numeros">
-                    <p class="hero-numero">12+</p>
-                    <p>años de experiencia</p>
-                </div>
-                <hr>
-                <div class="hero-numeros">
-                    <p class="hero-numero">500+</p>
-                    <p>Miembros activos</p>
-                </div>
-                <hr>
-                <div class="hero-numeros">
-                    <p class="hero-numero">8</p>
-                    <p>Entrenadores</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="clases">
-        <div class="container container-clases">
-            <p class="tag-pretitulo">Nuestras Clases</p>
-            <h2 class="titulo-seccion">Encuentra tu disciplina</h2>
-            <hr class="hr-seccion">
-            <p class="descripcion-seccion">Ofrecemos clases adaptadas a cada nivel y objetivo, desde fitness hasta competición.</p>
-            <div class="clases-cards">
-                <div class="clase-card clase-popular">
-                    <div class="flex-popular">
-                        <p class="emoji-clases">🥊</p>
-                        <p class="popular">popular</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iron Fist Gym</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/properties.css">
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <header id="header">
+            <h1>Iron Fist Gym</h1>
+            <nav>
+                <ul>
+                    <li><a href="#clases">Clases</a></li>
+                    <li><a href="#entrenadores">Entrenadores</a></li>
+                    <li><a href="#precios">Precios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="btn">Únete ahora</button>
+        </header>
+        <section id="hero">
+            <div class="container container-hero">
+                <div class="hero1">
+                    <p class="hero-tagline">🥊 El gym de boxeo #1</p>
+                    <h2>Entrena como un<br><span>campeón</span></h2>
+                    <p class="p-comun p-margin">Clases de boxeo para todos los
+                        niveles. Desde principiantes hasta competidores
+                        profesionales. Fórjate en el ring.</p>
+                    <div class="botones-hero">
+                        <button class="btn">Empezar ahora</button>
+                        <button class="btn btn-secundario">Ver clases</button>
                     </div>
-                    <h3>Boxeo clásico</h3>
-                    <p class="descripcion-card">Técnica, guardia, combinaciones y sparring controlado. La base de todo buen boxeador.</p>
-                    <p class="clase-nivel">Todos los niveles</p>
                 </div>
-                <div class="clase-card">
-                    <p class="emoji-clases">🔥</p>
-                    <h3>Box fitness</h3>
-                    <p class="descripcion-card">Entrena el cardio y quema calorías con circuitos de boxeo. Sin sparring, puro fitness.</p>
-                    <p class="clase-nivel">Principiantes</p>
-                </div>
-                <div class="clase-card">
-                    <p class="emoji-clases">🏆</p>
-                    <h3>Competición</h3>
-                    <p class="descripcion-card">Preparación para torneos amateurs y profesionales. Sparring intensivo y táctica avanzada.</p>
-                    <p class="clase-nivel">Avanzados</p>
+
+                <div class="hero2">
+                    <div class="hero-numeros">
+                        <p class="hero-numero">12+</p>
+                        <p>años de experiencia</p>
+                    </div>
+                    <hr>
+                    <div class="hero-numeros">
+                        <p class="hero-numero">500+</p>
+                        <p>Miembros activos</p>
+                    </div>
+                    <hr>
+                    <div class="hero-numeros">
+                        <p class="hero-numero">8</p>
+                        <p>Entrenadores</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="entrenadores">
-        <div class="container container-entrenadores">
-            <p class="tag-pretitulo">Nuestros Entrenadores</p>
-            <h2 class="titulo-seccion">Expertos a tu servicio</h2>
-            <hr class="hr-seccion">
-            <p class="descripcion-seccion">Un equipo de profesionales con experiencia en competición y entrenamiento personalizado.</p>
-            <div class="entrenadores-cards clases-cards">
-                <div class="entrenador1 clase-card">
-                    <p class="tag-pretitulo">HEAD COACH</p>
-                    <h3>Carlos Mendoza</h3>
-                    <p class="descripcion-card">Excampeón nacional amateur. 15 años de experiencia entrenando atletas de élite.</p>
+        <section id="clases">
+            <div class="container container-seccion">
+                <p class="tag-pretitulo">Nuestras Clases</p>
+                <h2 class="titulo-seccion">Encuentra tu disciplina</h2>
+                <hr class="hr-seccion">
+                <p class="descripcion-seccion">Ofrecemos clases adaptadas a cada
+                    nivel y objetivo, desde fitness hasta competición.</p>
+                <div class="clases-cards">
+                    <div class="clase-card clase-popular">
+                        <div class="flex-popular">
+                            <p class="emoji-clases">🥊</p>
+                            <p class="popular">popular</p>
+                        </div>
+                        <h3>Boxeo clásico</h3>
+                        <p class="descripcion-card">Técnica, guardia,
+                            combinaciones y sparring controlado. La base de todo
+                            buen boxeador.</p>
+                        <p class="clase-nivel">Todos los niveles</p>
+                    </div>
+                    <div class="clase-card">
+                        <p class="emoji-clases">🔥</p>
+                        <h3>Box fitness</h3>
+                        <p class="descripcion-card">Entrena el cardio y quema
+                            calorías con circuitos de boxeo. Sin sparring, puro
+                            fitness.</p>
+                        <p class="clase-nivel">Principiantes</p>
+                    </div>
+                    <div class="clase-card">
+                        <p class="emoji-clases">🏆</p>
+                        <h3>Competición</h3>
+                        <p class="descripcion-card">Preparación para torneos
+                            amateurs y profesionales. Sparring intensivo y
+                            táctica avanzada.</p>
+                        <p class="clase-nivel">Avanzados</p>
+                        <a href="https://www.feboxeo.com" target="_blank"
+                            class="enlace-externo">
+                            Ver calendario de torneos →
+                        </a>
+                    </div>
                 </div>
-                <div class="entrenador1 clase-card">
-                    <p class="tag-pretitulo">HEAD COACH</p>
-                    <h3>Carlos Mendoza</h3>
-                    <p class="descripcion-card">Excampeón nacional amateur. 15 años de experiencia entrenando atletas de élite.</p>
+            </div>
+        </section>
+
+        <section id="entrenadores">
+            <div class="container container-seccion">
+                <p class="tag-pretitulo">Nuestros Entrenadores</p>
+                <h2 class="titulo-seccion">Expertos a tu servicio</h2>
+                <hr class="hr-seccion">
+                <p class="descripcion-seccion">Un equipo de profesionales con
+                    experiencia en competición y entrenamiento
+                    personalizado.</p>
+                <div class="entrenadores-cards clases-cards">
+                    <div class="entrenador1 clase-card">
+                        <p class="tag-pretitulo">HEAD COACH</p>
+                        <h3>Carlos Mendoza</h3>
+                        <p class="descripcion-card">Excampeón nacional amateur.
+                            15 años de experiencia entrenando atletas de
+                            élite.</p>
+                    </div>
+                    <div class="entrenador1 clase-card">
+                        <p class="tag-pretitulo">FITNESS Y CONDICIÓN</p>
+                        <h3>Lucía Torres</h3>
+                        <p class="descripcion-card">Especialista en acondicionamiento físico y nutrición deportiva para boxeadores.</p>
+                    </div>
+                    <div class="entrenador1 clase-card">
+                        <p class="tag-pretitulo">TÉCNICA JUVENIL</p>
+                        <h3>Marcos Ruiz</h3>
+                        <p class="descripcion-card">Formador de jóvenes talentos con metodología adaptada y enfoque en valores.</p>
+                    </div>
                 </div>
-                <div class="entrenador1 clase-card">
-                    <p class="tag-pretitulo">HEAD COACH</p>
-                    <h3>Carlos Mendoza</h3>
-                    <p class="descripcion-card">Excampeón nacional amateur. 15 años de experiencia entrenando atletas de élite.</p>
+            </div>
+        </section>
+
+        <section id="horarios">
+            <div class="container container-seccion">
+                <p class="tag-pretitulo">Horarios</p>
+                <h2 class="titulo-seccion">Planifica tu semana</h2>
+                <hr class="hr-seccion">
+                <table class="tabla-horarios">
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Hora</th>
+                            <th>Clase</th>
+                            <th>Entrenador</th>
+                            <th>Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lun · Mié · Vie</td>
+                            <td>07:00 - 08:00</td>
+                            <td>Box fitness matutino</td>
+                            <td>Lucía Torres</td>
+                            <td><span
+                                    class="nivel-badge nivel-principiante">Principiante</span></td>
+                        </tr>
+                        <tr>
+                            <td>Mar · Jue</td>
+                            <td>10:00 - 11:30</td>
+                            <td>Boxeo técnico</td>
+                            <td>Carlos Mendoza</td>
+                            <td><span
+                                    class="nivel-badge nivel-intermedio">Intermedio</span></td>
+                        </tr>
+                        <tr>
+                            <td>Lun · Mié</td>
+                            <td>18:00 - 19:00</td>
+                            <td>Box fitness vespertino</td>
+                            <td>Lucía Torres</td>
+                            <td><span
+                                    class="nivel-badge nivel-principiante">Principiante</span></td>
+                        </tr>
+                        <tr>
+                            <td>Mar · Jue · Sáb</td>
+                            <td>19:00 - 20:30</td>
+                            <td>Boxeo clásico + sparring</td>
+                            <td>Carlos Mendoza</td>
+                            <td><span
+                                    class="nivel-badge nivel-intermedio">Intermedio</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vie · Sáb</td>
+                            <td>20:30 - 22:00</td>
+                            <td>Entrenamiento competición</td>
+                            <td>Carlos Mendoza</td>
+                            <td><span
+                                    class="nivel-badge nivel-avanzado">Avanzado</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="precios">
+            <div class="container container-seccion">
+                <p class="tag-pretitulo">Tarifas</p>
+                <h2 class="titulo-seccion">Elige tu plan</h2>
+                <hr class="hr-seccion">
+                <p class="descripcion-seccion">Sin permanencias. Cambia o
+                    cancela cuando quieras.</p>
+
+                <div class="clases-cards precios-cards">
+
+                    <div class="clase-card precio-card">
+                        <p class="precio-plan">Básico</p>
+                        <p class="precio-numero">29€</p>
+                        <p class="precio-mes">/ mes</p>
+                        <ul class="precio-features">
+                            <li class="feature-si">2 clases por semana</li>
+                            <li class="feature-si">Acceso al gimnasio</li>
+                            <li class="feature-no">Entrenamiento personal</li>
+                            <li class="feature-no">Clases de competición</li>
+                        </ul>
+                        <button
+                            class="btn btn-precio-secundario">Empezar</button>
+                    </div>
+
+                    <div
+                        class="clase-card precio-card clase-popular precio-popular">
+                        <p class="popular">Más popular</p>
+                        <p class="precio-plan">Pro</p>
+                        <p class="precio-numero">49€</p>
+                        <p class="precio-mes">/ mes</p>
+                        <ul class="precio-features">
+                            <li class="feature-si">Clases ilimitadas</li>
+                            <li class="feature-si">Acceso al gimnasio</li>
+                            <li class="feature-si">1 sesión personal/mes</li>
+                            <li class="feature-no">Clases de competición</li>
+                        </ul>
+                        <button class="btn btn-precio-popular">Empezar</button>
+                    </div>
+
+                    <div class="clase-card precio-card">
+                        <p class="precio-plan">Élite</p>
+                        <p class="precio-numero">79€</p>
+                        <p class="precio-mes">/ mes</p>
+                        <ul class="precio-features">
+                            <li class="feature-si">Clases ilimitadas</li>
+                            <li class="feature-si">Acceso 24h</li>
+                            <li class="feature-si">4 sesiones
+                                personales/mes</li>
+                            <li class="feature-si">Clases de competición</li>
+                        </ul>
+                        <button
+                            class="btn btn-precio-secundario">Empezar</button>
+                    </div>
+
                 </div>
-    </section>
+            </div>
+        </section>
 
-    <br><br><br><br>
+        <section id="contacto">
+            <div class="container container-seccion">
+                <p class="tag-pretitulo">Contacto</p>
+                <h2 class="titulo-seccion">Ven a conocernos</h2>
+                <hr class="hr-seccion">
+                <p class="descripcion-seccion">Primera clase de prueba gratuita.
+                    Sin compromiso.</p>
 
+                <div class="contacto-grid">
 
-</body>
+                    <div class="contacto-info">
+                        <div class="contacto-item">
+                            <span class="contacto-icono">📍</span>
+                            <div>
+                                <p class="contacto-label">Dirección</p>
+                                <p class="contacto-valor">Calle del Ring, 12</p>
+                                <p class="contacto-valor">Las Palmas de G.C.</p>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <span class="contacto-icono">📞</span>
+                            <div>
+                                <p class="contacto-label">Teléfono</p>
+                                <p class="contacto-valor">+34 928 000 000</p>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <span class="contacto-icono">✉️</span>
+                            <div>
+                                <p class="contacto-label">Email</p>
+                                <p
+                                    class="contacto-valor">info@ironfistgym.es</p>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <span class="contacto-icono">🕐</span>
+                            <div>
+                                <p class="contacto-label">Horario</p>
+                                <p class="contacto-valor">Lun – Vie: 7:00 –
+                                    22:00</p>
+                                <p class="contacto-valor">Sábado: 9:00 –
+                                    18:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contacto-form">
+                        <div class="form-fila">
+                            <div class="form-grupo">
+                                <label class="form-label">Nombre</label>
+                                <input type="text" class="form-input"
+                                    placeholder="Tu nombre">
+                            </div>
+                            <div class="form-grupo">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-input"
+                                    placeholder="tu@email.com">
+                            </div>
+                        </div>
+                        <div class="form-grupo">
+                            <label class="form-label">Clase de interés</label>
+                            <input type="text" class="form-input"
+                                placeholder="Boxeo clásico, Box fitness...">
+                        </div>
+                        <div class="form-grupo">
+                            <label class="form-label">Mensaje</label>
+                            <textarea class="form-input form-textarea"
+                                placeholder="Cuéntanos sobre ti..."></textarea>
+                        </div>
+                        <button class="btn btn-precio-popular">Enviar
+                            mensaje</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container footer-grid">
+                <h2 class="footer-logo">Iron Fist Gym</h2>
+                <p class="footer-copy">© 2025 Iron Fist Gym · Todos los derechos
+                    reservados</p>
+            </div>
+        </footer>
+    </body>
 </html>

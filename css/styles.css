@@ -9,6 +9,10 @@ body {
     width: 100%;       /* Para que sea responsivo */
 }
 
+.container-seccion {
+    padding: 80px 0;
+}
+
 .container-hero {
     display: flex;
     flex-direction: row;
@@ -138,11 +142,6 @@ nav ul {
     max-width: 90%;
 }
 
-.container-clases {
-    min-height: 70vh;
-    margin: 80px auto;
-}
-
 .clases-cards {
     display: flex;
     flex-direction: row;
@@ -159,8 +158,9 @@ nav ul {
     border: 1px solid var(--borde-tarjetas);
     flex: 1;
     position: relative;
-    gap: 26px;
     padding: 28px;
+    display: flex;
+    flex-direction: column;
 }
 
 .clase-popular {
@@ -224,9 +224,300 @@ nav ul {
     letter-spacing: 2px;
 }
 
+.enlace-externo {
+    font-family: var(--fuente-secundaria);
+    color: var(--rojo);
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.enlace-externo:hover {
+    color: var(--blanco);
+}
+
 .entrenador1-img {
     margin-bottom: 16px;
     width: 100%;
     height: 50%;
 
+}
+
+.tabla-horarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    font-family: var(--fuente-secundaria);
+}
+
+.tabla-horarios thead th {
+    text-align: left;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gris);
+    font-weight: 300;
+    padding: 0 0 16px 0;
+    border-bottom: 1px solid var(--borde-tarjetas);
+}
+
+.tabla-horarios tbody tr {
+    border-bottom: 1px solid var(--borde-tarjetas);
+}
+
+.tabla-horarios tbody td {
+    padding: 24px 0;
+    color: var(--blanco);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--fuente-secundaria);
+}
+
+.nivel-badge {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    font-weight: 400;
+    font-family: var(--fuente-secundaria);
+}
+
+.nivel-principiante {
+    background-color: var(--pill-principiante-fondo);
+    color: var(--pill-principiante-texto);
+}
+
+.nivel-intermedio {
+    background-color: var(--pill-intermedio-fondo);
+    color: var(--pill-intermedio-texto);
+}
+
+.nivel-avanzado {
+    background-color: var(--pill-avanzado-fondo);
+    color: var(--pill-avanzado-texto);
+}
+
+.precio-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 32px;
+}
+
+.precio-popular {
+    border-color: var(--rojo);
+}
+
+.precio-plan {
+    font-family: var(--fuente-secundaria);
+    color: var(--gris);
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.precio-numero {
+    font-family: var(--fuente-principal);
+    color: var(--blanco);
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.precio-mes {
+    font-family: var(--fuente-secundaria);
+    color: var(--gris);
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 6px;
+    margin-bottom: 28px;
+}
+
+.precio-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 32px;
+    flex: 1;
+}
+
+.precio-features li {
+    font-family: var(--fuente-secundaria);
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.precio-features li::before {
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.feature-si::before {
+    content: "✓";
+    color: var(--pill-principiante-texto);
+}
+
+.feature-no::before {
+    content: "✕";
+    color: var(--rojo);
+}
+
+.btn-precio-secundario {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid var(--borde-tarjetas);
+    color: var(--blanco);
+}
+
+.btn-precio-secundario:hover {
+    border-color: var(--gris);
+}
+
+.btn-precio-popular {
+    width: 100%;
+    background-color: var(--rojo);
+    border: none;
+    color: var(--blanco);
+}
+
+.btn-precio-popular:hover {
+    background-color: var(--pill-precio-popular);
+}
+
+.contacto-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 48px;
+    align-items: flex-start;
+}
+
+.contacto-info {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    flex: 1;
+}
+
+.contacto-item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.contacto-icono {
+    font-size: 20px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.contacto-label {
+    font-family: var(--fuente-secundaria);
+    color: var(--gris);
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.contacto-valor {
+    font-family: var(--fuente-secundaria);
+    color: var(--blanco);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.contacto-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2;
+}
+
+.form-fila {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.form-label {
+    font-family: var(--fuente-secundaria);
+    color: var(--gris);
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.form-input {
+    background-color: var(--input-fondo);
+    border: 1px solid var(--borde-tarjetas);
+    color: var(--blanco);
+    font-family: var(--fuente-secundaria);
+    font-size: 13px;
+    font-weight: 300;
+    padding: 14px 16px;
+    outline: none;
+    width: 100%;
+}
+
+.form-input::placeholder {
+    color: var(--input-placeholder);
+}
+
+.form-input:focus {
+    border-color: var(--gris2);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#footer {
+    border-top: 3px solid var(--rojo);
+    background-color: var(--header-negro);
+    padding: 28px 0;
+}
+
+.footer-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-family: var(--fuente-principal);
+    color: var(--rojo);
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.footer-copy {
+    font-family: var(--fuente-secundaria);
+    color: var(--gris);
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
